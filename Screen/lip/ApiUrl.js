@@ -1,0 +1,23 @@
+export const SignUpApi ="auth/signup";
+export const LoginApi = "auth/log-in";
+export const verifyotp = "auth/verify-otp";
+export const resetpassword = "auth/reset-password";
+export const forgotpassword="auth/forgot-password";
+export const restaurantslist ="restaurants/list?latitude=26.972075229121398&longitude=75.75078941284912";
+export const updateprofile ="users/updateProfile";
+export const favoriterestaurent="restaurants/favList?latitude=26.972075229121398&longitude=75.75078941284912";
+export const profileaccount = "users/profile_account_info";
+export const changepassword = "users/changepassword";
+export const notificationbutton ="users/notification";
+export const LikeFavroute =`restaurants/FavoriteRes?value=`;
+export const Search =`restaurants/search?latitude=%252026.887131643614946&longitude=75.75078941284912&search=`;
+export const RestaurentDetails =`restaurants/details?latitude=%2026.887131643614946&longitude=75.75078941284912&restaurantId=`;
+export const GoingHere = "restaurants/goingHereHistory?latitude=26.972075229121398&longitude=75.75078941284912";
+export const AmHere="restaurants/iAmHereHistory?latitude=26.972075229121398&longitude=75.75078941284912"
+export const Filterapi =`restaurants/filterRes?latitude=26.972075229121398&longitude=75.75078941284912&miles=`;
+export const GetcatagoriId = "restaurants/getGroupCategories";
+export const PrivecyPolicy ="users/privacy";
+export const VisitHere ="restaurants/visitrest";
+export const Going="restaurants/going";
+export const GetReview=`restaurants/getReviews?restaurantId=`;
+export const SetLikes="users/set";
